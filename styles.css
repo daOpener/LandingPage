@@ -21,7 +21,6 @@ header {
     align-items: center;
     height: 50px;
     gap: 50px;
-    margin-bottom: 200px;
 }
 
 header div {
@@ -61,11 +60,10 @@ button {
 section {
     display: flex;
     width: 100%;
-    height: 50%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-bottom: 400px;
     padding: 0 200px 0 200px;
 }
 
@@ -115,4 +113,19 @@ h3 {
 .second-section div>div div {
     border: 3px solid blue;
     border-radius: 30px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    height: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+q {
+    font-size: 76px;
+    font-weight: 900;
+    font-style: italic;
+    color: #1F2937;
 }
